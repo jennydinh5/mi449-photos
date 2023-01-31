@@ -1,1 +1,54 @@
-/* Add screen styles below */
+
+h1 {
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
+    font-size: 3em;
+    padding-left: 50px;
+    margin: 60px 0 25px 0;
+    color: rgb(215, 177, 185);
+
+}
+
+body {
+    background: rgba(215, 214, 214, 0.449);
+    font-family: Arial, Helvetica;
+    border-top: 15px solid #424242;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 0 6px;
+
+}
+
+
+div {
+    flex-grow: 1;
+    height: 40vh;
+}
+
+img {
+    height: 300px;
+    flex-basis: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.info{
+    font-size: 20px;
+
+}
+
+#footer {
+    border-top: 1px dotted #ccc;
+    font-size: 10px;
+    margin-top: auto;
+    
+}
